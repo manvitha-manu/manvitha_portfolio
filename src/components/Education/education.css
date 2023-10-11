@@ -1,0 +1,65 @@
+.skills{
+    overflow:hidden;
+    width:100vw;
+    max-width:65rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+.skillTitle{
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top:3rem;
+    margin-bottom: 1.5rem;
+}
+.skillTitle:hover
+{
+    color:grey;
+    padding-bottom: 0.5rem;
+    border-bottom: 8px solid black;
+}
+.skillDesc
+{
+    font-size: 1rem;
+    font-weight:400;
+    max-width:51rem;
+    padding:0 4rem;
+}
+
+.eduTitle{
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top:3rem;
+    margin-bottom: 1.5rem; 
+}
+.eduTitle:hover
+{
+    color:grey;
+    padding-bottom: 0.5rem;
+    border-bottom: 8px solid black;
+}
+.edudetails{
+    margin:1.5rem;
+    width:100vw;
+    max-width: 80%;
+    text-align:left;
+}
+.eduBar{
+    display: flex;
+    margin: 1rem;
+    padding: 1.5rem 2rem;
+    border-radius: 0.5rem;
+    background-color: rgb(136, 163, 162);
+}
+h2{
+    font-weight: 500;
+}
+.edulblogo{
+    object-fit:cover;
+    height:5rem;
+    width:5rem;
+    
+}
