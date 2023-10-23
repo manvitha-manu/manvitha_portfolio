@@ -7,7 +7,8 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin: 0 auto;
+    margin: 0 auto; 
+    padding: 1rem 2rem;   
 }
 .skillTitle{
     font-size: 3rem;
@@ -23,10 +24,10 @@
 }
 .skillDesc
 {
-    font-size: 1rem;
-    font-weight:400;
-    max-width:51rem;
-    padding:0 4rem;
+     font-size: 1rem;
+     font-weight:400;
+     max-width:45rem;
+    
 }
 
 .eduTitle{
