@@ -97,7 +97,21 @@
     background-color: rgba(199, 202, 202, 0.519);
 }
 .mobMenu{
-    /* display: none; */
+    display: none;
     object-fit: cover;
     height:1.2rem;
 }
+
+@media screen and (max-width:720px) {
+    .mobMenu{
+        display:flex;    
+    }
+    .desktopMenu{
+        display: none;
+    }
+    .desktopMenuBtn{
+        display: none;
+    }
+}
+
+
