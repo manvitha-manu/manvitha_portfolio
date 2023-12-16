@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import './navbar.css';
 import logo from '../../assets/logonobg.png';
-import contactImg from '../../assets/contact.png'
+import contactImg from '../../assets/contact.png';
 import {Link} from 'react-scroll';
 import menu from'../../assets/menu.png';
 const Navbar=()=>{
