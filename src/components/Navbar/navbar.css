@@ -10,12 +10,23 @@
     position:sticky;
     top:0;
     z-index:3;
+    transition:.3s;
+    opacity:1;
+    animation: slideTop .5s ease forwards;
+    animation-delay: calc(.2s *var(--i));
 }
 .Logo
 {
     object-fit:cover;
     height:4rem;
     width:9rem;
+    cursor: default;
+    opacity: 1;
+    animation: slideRight 1s ease forwards;
+}
+.Logo:hover
+{
+    box-shadow: 0 0 50px rgb(31, 215, 221);
 }
 
 .desktopMenuListItem
@@ -27,7 +38,10 @@
 {
     color:grey;
     padding-bottom: 0.5rem;
-    border-bottom: 8px solid black;
+    border-bottom: 3px solid black;
+    background: grey(147, 137, 142);
+    color: black;
+    text-shadow: 0 0 2px rgb(31, 215, 221);
 }
 /* .desktopMenuBtn
 {
@@ -55,7 +69,14 @@
     padding: 0 1rem;
     border:none;
     border-radius: 2rem;
+    background: grey(147, 137, 142);
+    color: black;
+    animation: slideLeft 1s ease forwards;
     
+}
+.desktopMenuBtn:hover
+{
+    box-shadow: 0 0 10px rgb(31, 215, 221); 
 }
 .desktopMenuImg
 {
@@ -72,7 +93,7 @@
 .active
 {
     color: black;
-    border-bottom:3px solid black;
+    border-bottom:2px solid black;
     padding-bottom: 0.5rem;
 }
 
@@ -112,6 +133,50 @@
     .desktopMenuBtn{
         display: none;
     }
+}
+@keyframes slideRight
+{
+  0%{
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  100%{
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+@keyframes slideLeft
+{
+  0%{
+    transform: translateX(100px);
+    opacity: 0;
+  }
+  100%{
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+@keyframes slideTop
+{
+  0%{
+    transform: translateY(100px);
+    opacity: 0;
+  }
+  100%{
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+@keyframes slideBottom 
+{
+  0%{
+    transform: translateY(100px);
+    opacity: 0;
+  }
+  100%{
+    transform: translateY(0px);
+    opacity: 1;
+  }
 }
 
 

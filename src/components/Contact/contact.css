@@ -46,6 +46,11 @@
     padding: 0.5rem 2rem;
     margin: 1.5rem;
 }
+.submitBtn:hover
+{
+    box-shadow: 0 0 30px rgb(31, 215, 221); 
+
+}
 .links{
     display: flex;
     flex-wrap:wrap;
