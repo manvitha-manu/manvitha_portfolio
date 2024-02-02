@@ -21,7 +21,7 @@ const Works = () => {
                 <img src={Portfolio2} alt="" className="worksImg" />
                 <img src={Portfolio3} alt="" className="worksImg" />
             </div>
-            <a href="https://drive.google.com/file/d/1CGAHPJoBIyPI44Wrud_3fynHeu88FRMv/view?usp=drive_link" download="Manvitha's Resume.pdf" target="_blank">
+            <a href="https://drive.google.com/file/d/1e3078CCioodXDFT3Gvbq1ttuJQtLjcGv/view?usp=sharing" download="Manvitha's Resume.pdf" target="blank">
             <button className="worksBtn">Download Resume</button>
             </a>
        </section>
