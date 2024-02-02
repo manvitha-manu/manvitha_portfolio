@@ -12,8 +12,8 @@ const [showMenu, setShowMenu]= useState(false);
                 <img src={logo} alt="Logo" className="Logo"/>
                 <div className="desktopMenu">
                     <Link activeClass= "active" to="intro" spy={true} smooth={true} offset={-100} duration={500} className="desktopMenuListItem">Home</Link>
-                    <Link activeClass= "active" to="skills" spy={true} smooth={true} offset={-10} duration={500}className="desktopMenuListItem">About</Link>
-                    <Link activeClass= "active" to="works" spy={true} smooth={true} offset={-50} duration={500}className="desktopMenuListItem">Portfolio</Link>
+                    <Link activeClass= "active" to="skills" spy={true} smooth={true} offset={-100} duration={500}className="desktopMenuListItem">About</Link>
+                    <Link activeClass= "active" to="works" spy={true} smooth={true} offset={-60} duration={500}className="desktopMenuListItem">Portfolio</Link>
                     </div>            
             <button className="desktopMenuBtn" onClick={()=>{
 
@@ -25,8 +25,8 @@ const [showMenu, setShowMenu]= useState(false);
             <img src={menu} alt="Menu" className="mobMenu" onClick={()=> setShowMenu(!showMenu)}/>
                 <div className="navMenu" style={{display: showMenu? 'flex': 'none'}}>
                     <Link activeClass= "active" to="intro" spy={true} smooth={true} offset={-100} duration={500} className="ListItem"onClick={()=>setShowMenu(false)}>Home</Link>
-                    <Link activeClass= "active" to="skills" spy={true} smooth={true} offset={-10} duration={500}className="ListItem"onClick={()=>setShowMenu(false)}>About</Link>
-                    <Link activeClass= "active" to="works" spy={true} smooth={true} offset={-50} duration={500}className="ListItem"onClick={()=>setShowMenu(false)}>Portfolio</Link>
+                    <Link activeClass= "active" to="skills" spy={true} smooth={true} offset={-100} duration={500}className="ListItem"onClick={()=>setShowMenu(false)}>About</Link>
+                    <Link activeClass= "active" to="works" spy={true} smooth={true} offset={-60} duration={500}className="ListItem"onClick={()=>setShowMenu(false)}>Portfolio</Link>
                     <Link activeClass= "active" to="contactPage" spy={true} smooth={true} offset={-80} duration={500}className="ListItem"onClick={()=>setShowMenu(false)}>Contact</Link>
 
                     </div> 

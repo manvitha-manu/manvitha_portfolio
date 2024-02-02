@@ -8,7 +8,7 @@
 }
 .bg{
     position:absolute;
-    top:-5rem;
+    top:2rem;
     right:2rem;
     z-index:-1;
     object-fit:cover;
@@ -18,7 +18,7 @@
 .introContent{
     height: 75vh;
     width:100vw;
-    padding:2rem;
+    padding:10rem;
     font-size: 3rem;
     font-weight: 700;
     display: flex;

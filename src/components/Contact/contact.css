@@ -61,3 +61,7 @@
     width: 3rem;
     margin:0 0.75rem;
 }
+.link:hover
+{
+    box-shadow: 0 0 10px rgb(31, 215, 221); 
+}

@@ -23,14 +23,15 @@ const Education=()=>{
                 <img src={csu} alt="csu" className="edulblogo" />
                 <div className="eduBar">
                <h2>Master's in California State University Long Beach, USA </h2> 
-                <p></p>              
+               <p>Coursework: Adv Topics in Programming Lang, Machine Vision, Adv Analysis of Algorithm, Adv Software Engineering, Adv Computer Architecture,Pattern Recognition, Hardware/ Software Co-design </p>           
                </div>
                </div>
                <div className="edudetails">
                 <img src={reva} alt="reva" className="edulblogo" />
                 <div className="eduBar">
-               <h2>Bachelor's in Reva University Bengaluru, India </h2> 
-               <p></p>
+               <h2>Bachelor's in Reva University Bengaluru, India </h2>
+               <p>Coursework: Data Structures and Algorithms, Object Oriented Programming, Operating systems and Unix Internals, Design and Analysis of Algorithms, Database Management System, Computer Networks Concepts and Protocol</p> 
+               
                </div>
                </div>
                
