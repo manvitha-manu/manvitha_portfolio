@@ -9,7 +9,7 @@ const Contact = () => {
     const sendEmail = (e) => {
         e.preventDefault();
     
-        emailjs.sendForm('service_nyn1e17', 'template_8djcz5w', form.current, 'TQDgR6xGthopy4UGpZR89')
+        emailjs.sendForm('service_9lidsnu', 'template_ioitvt8', form.current, 'ZKgGY-Vly4hoeT20y')
           .then((result) => {
               console.log(result.text);
               e.target.reset();
@@ -26,8 +26,8 @@ const Contact = () => {
                 Please fill out the form below to discuss any work oppurtunities 
             </span>
             <form className="contactForm" ref={form} onSubmit={sendEmail}>
-                <input type="text" className="name" placeholder="Enter your name" name='from_name'/>
-                <input type="email" className="email" placeholder="Enter your email" name='from_email'/>
+                <input type="text" className="name" placeholder="Enter your name" name='your_name'/>
+                <input type="email" className="email" placeholder="Enter your email" name='your_email'/>
                 <textarea className="msg" name="message"  cols="30" rows="10" placeholder="Your Message"></textarea>
                 <button type= "submit" value='send' className="submitBtn">Submit</button>
                 <div className="links">

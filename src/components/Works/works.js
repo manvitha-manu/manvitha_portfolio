@@ -11,10 +11,10 @@ const Works = () => {
        <section id="works">
             <h2 className="worksTitle">My Portfolio</h2>
             <span className="workDesc">
-            I derive great satisfaction from meticulously focusing on even the tiniest elements,
-            ensuring that my work attains a level of precision that can be compared to perfection.
+            "As a passionate and results-oriented software engineer, I leverage my proficiency in Java, Javascript, and cloud technologies to craft secure and user-friendly applications. Having tackled diverse challenges from optimizing performance to automating workflows, 
+            I thrive in collaborative environments and consistently strive for innovation.
             I am enthusiastic about applying my expertise and background to support companies in 
-            reaching their objectives and establishing a robust online identity.
+            reaching their objectives and establishing a robust online identity."
             </span>
             <div className="worksImg">
                 <img src={Portfolio1} alt="" className="worksImg" />

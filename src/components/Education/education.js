@@ -11,10 +11,11 @@ const Education=()=>{
             <span className="skillTitle">What I do</span>
             <div>
             <span className="skillDesc">
-            I'm a skilled Full Stack Developer with expertise in creating complete web solutions.
-            My tech stack includes React.js for dynamic front-end development, Node.js for robust back-end functionality, and MongoDB for database management.
-            I deploy applications on AWS, ensuring scalability and reliability. Proficient in Git and GitHub for version control.
-            With Visual Studio Code as my primary development tool, I am committed to crafting responsive and efficient web applications that meet both user and business requirements.
+            Fueled by a deep passion for crafting software, I'm a versatile and results-oriented engineer who builds secure, performant applications that delight users. 
+            With a firm grasp of both frontend and backend technologies (Java, Python, JavaScript, and cloud tools), I relish tackling diverse challenges and delivering impactful solutions.
+            Optimizing performance, streamlining data access, and crafting engaging interfaces are all opportunities to explore, innovate, and push the boundaries of what's possible. 
+            Whether collaborating across teams or automating tasks, I bring a collaborative spirit and unwavering dedication to efficiency and user-centricity. 
+            Every project is a chance to express my passion for coding, leaving a positive impact on users and the software development landscape.
              </span>
              </div>
 
@@ -22,16 +23,13 @@ const Education=()=>{
             <div className="edudetails">
                 <img src={csu} alt="csu" className="edulblogo" />
                 <div className="eduBar">
-               <h2>Master's in California State University Long Beach, USA </h2> 
-               <p>Coursework: Adv Topics in Programming Lang, Machine Vision, Adv Analysis of Algorithm, Adv Software Engineering, Adv Computer Architecture,Pattern Recognition, Hardware/ Software Co-design </p>           
+               <h2>Master's in California State University Long Beach, USA   </h2> 
                </div>
                </div>
                <div className="edudetails">
                 <img src={reva} alt="reva" className="edulblogo" />
                 <div className="eduBar">
-               <h2>Bachelor's in Reva University Bengaluru, India </h2>
-               <p>Coursework: Data Structures and Algorithms, Object Oriented Programming, Operating systems and Unix Internals, Design and Analysis of Algorithms, Database Management System, Computer Networks Concepts and Protocol</p> 
-               
+               <h2>Bachelor's in Reva University Bengaluru, India</h2>
                </div>
                </div>
                
