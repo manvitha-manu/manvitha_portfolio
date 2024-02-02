@@ -27,13 +27,17 @@
     justify-content: center;
     /* flex-wrap:wrap; */
     width:100vw;
-    max-width: 65rem;
+    max-width: 50vw;
 }
 .worksImg{
     object-fit: cover;
-    height: 25rem;
+    height: 60vh;
     margin: 0.5rem;
     border: none;
+}
+.worksImg:hover
+{
+    box-shadow: 0 0 50px rgb(31, 215, 221);
 }
 .worksBtn{
     margin: 3rem 0;
@@ -42,6 +46,10 @@
     border-radius: 2rem;
     background-color:grey;
     font-size: 1rem;
+}
+.worksBtn:hover
+{
+    box-shadow: 0 0 30px rgb(31, 215, 221); 
 }
 @media screen and (max-width: 585px) {
     .worksImg{
